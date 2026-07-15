@@ -3,6 +3,48 @@
   "configurations": [
     {
       "type": "java",
+      "name": "fabric Client (:fabric)",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/runs/client",
+      "console": "integratedTerminal",
+      "stopOnEntry": false,
+      "mainClass": "net.fabricmc.devlaunchinjector.Main",
+      "vmArgs": "-Dfabric.dli.config\u003d/home/isaac/minecraft_mods/TheOncomingStorm/fabric/.gradle/loom-cache/launch.cfg -Dfabric.dli.env\u003dclient -Dfabric.dli.main\u003dnet.fabricmc.loader.impl.launch.knot.KnotClient",
+      "args": "",
+      "env": {},
+      "projectName": "fabric",
+      "runDir": "/home/isaac/minecraft_mods/TheOncomingStorm/fabric/runs/client"
+    },
+    {
+      "type": "java",
+      "name": "fabric Data (:fabric)",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/build/datagen",
+      "console": "integratedTerminal",
+      "stopOnEntry": false,
+      "mainClass": "net.fabricmc.devlaunchinjector.Main",
+      "vmArgs": "-Dfabric.dli.config\u003d/home/isaac/minecraft_mods/TheOncomingStorm/fabric/.gradle/loom-cache/launch.cfg -Dfabric.dli.env\u003dclient -Dfabric-api.datagen -Dfabric-api.datagen.output-dir\u003d/home/isaac/minecraft_mods/TheOncomingStorm/common/src/generated/resources -Dfabric-api.datagen.modid\u003doncomingstorm -Dfabric.dli.main\u003dnet.fabricmc.loader.impl.launch.knot.KnotClient",
+      "args": "",
+      "env": {},
+      "projectName": "fabric",
+      "runDir": "/home/isaac/minecraft_mods/TheOncomingStorm/fabric/build/datagen"
+    },
+    {
+      "type": "java",
+      "name": "fabric Server (:fabric)",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/runs/server",
+      "console": "integratedTerminal",
+      "stopOnEntry": false,
+      "mainClass": "net.fabricmc.devlaunchinjector.Main",
+      "vmArgs": "-Dfabric.dli.config\u003d/home/isaac/minecraft_mods/TheOncomingStorm/fabric/.gradle/loom-cache/launch.cfg -Dfabric.dli.env\u003dserver -Dfabric.dli.main\u003dnet.fabricmc.loader.impl.launch.knot.KnotServer",
+      "args": "nogui nogui",
+      "env": {},
+      "projectName": "fabric",
+      "runDir": "/home/isaac/minecraft_mods/TheOncomingStorm/fabric/runs/server"
+    },
+    {
+      "type": "java",
       "request": "launch",
       "name": "forge - Client",
       "presentation": {
