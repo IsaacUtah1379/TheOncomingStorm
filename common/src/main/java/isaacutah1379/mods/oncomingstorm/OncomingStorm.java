@@ -15,7 +15,7 @@ public class OncomingStorm {
 
     public static final Logger logger = LoggerFactory.getLogger(OncomingStorm.class);
 
-    public static final String MOD_ID = "yourmod";
+    public static final String MOD_ID = "oncomingstorm";
 
     public static void initialize() {
         OncomingStormConfig.initialize();

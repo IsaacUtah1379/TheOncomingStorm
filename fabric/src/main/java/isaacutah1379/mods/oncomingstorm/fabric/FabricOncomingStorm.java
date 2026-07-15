@@ -1,6 +1,6 @@
 package isaacutah1379.mods.oncomingstorm.fabric;
 
-import isaacutah1379.mods.oncomingstorm.YourMod;
+import isaacutah1379.mods.oncomingstorm.OncomingStorm;
 import net.blay09.mods.balm.api.Balm;
 import net.blay09.mods.balm.api.EmptyLoadContext;
 import net.fabricmc.api.ModInitializer;

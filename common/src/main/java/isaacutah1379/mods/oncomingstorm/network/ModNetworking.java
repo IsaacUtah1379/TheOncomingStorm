@@ -1,8 +1,8 @@
 package isaacutah1379.mods.oncomingstorm.network;
 
-import static isaacutah1379.mods.oncomingstorm.YourMod.id;
+import static isaacutah1379.mods.oncomingstorm.OncomingStorm.id;
 
-import isaacutah1379.mods.oncomingstorm.YourModConfig;
+import isaacutah1379.mods.oncomingstorm.OncomingStormConfig;
 import isaacutah1379.mods.oncomingstorm.network.protocol.ClientboundConfigMessage;
 import net.blay09.mods.balm.api.network.BalmNetworking;
 import net.blay09.mods.balm.api.network.SyncConfigMessage;

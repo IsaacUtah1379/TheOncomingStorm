@@ -6,10 +6,10 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 
-import static isaacutah1379.mods.oncomingstorm.YourMod.id;
+import static isaacutah1379.mods.oncomingstorm.OncomingStorm.id;
 import static net.blay09.mods.balm.api.item.BalmItems.itemProperties;
 
-import isaacutah1379.mods.oncomingstorm.YourMod;
+import isaacutah1379.mods.oncomingstorm.OncomingStorm;
 
 public class ModItems {
     public static DeferredObject<CreativeModeTab> creativeModeTab;

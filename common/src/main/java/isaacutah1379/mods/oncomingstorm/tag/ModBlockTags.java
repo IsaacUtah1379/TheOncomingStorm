@@ -1,6 +1,6 @@
 package isaacutah1379.mods.oncomingstorm.tag;
 
-import static isaacutah1379.mods.oncomingstorm.YourMod.id;
+import static isaacutah1379.mods.oncomingstorm.OncomingStorm.id;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.tags.TagKey;

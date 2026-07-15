@@ -1,10 +1,10 @@
 package isaacutah1379.mods.oncomingstorm.client;
 
-import static isaacutah1379.mods.oncomingstorm.YourMod.id;
+import static isaacutah1379.mods.oncomingstorm.OncomingStorm.id;
 
 import com.mojang.blaze3d.platform.InputConstants;
 
-import isaacutah1379.mods.oncomingstorm.YourMod;
+import isaacutah1379.mods.oncomingstorm.OncomingStorm;
 import net.blay09.mods.kuma.api.InputBinding;
 import net.blay09.mods.kuma.api.Kuma;
 import net.blay09.mods.kuma.api.ManagedKeyMapping;

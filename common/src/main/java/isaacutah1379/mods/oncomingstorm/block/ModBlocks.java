@@ -4,7 +4,7 @@ import net.blay09.mods.balm.api.block.BalmBlocks;
 import net.blay09.mods.balm.api.item.BalmItems;
 import net.minecraft.world.level.block.Block;
 
-import static isaacutah1379.mods.oncomingstorm.YourMod.id;
+import static isaacutah1379.mods.oncomingstorm.OncomingStorm.id;
 import static net.blay09.mods.balm.api.block.BalmBlocks.blockProperties;
 
 public class ModBlocks {

@@ -8,7 +8,7 @@ import net.minecraft.world.item.Items;
 
 import java.util.function.Consumer;
 
-import isaacutah1379.mods.oncomingstorm.YourMod;
+import isaacutah1379.mods.oncomingstorm.OncomingStorm;
 import isaacutah1379.mods.oncomingstorm.block.ModBlocks;
 import isaacutah1379.mods.oncomingstorm.item.ModItems;
 
